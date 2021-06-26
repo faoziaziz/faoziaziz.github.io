@@ -61,8 +61,10 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
+    stringex (2.8.5)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
+    thor (1.1.0)
     unicode-display_width (1.7.0)
     webrick (1.7.0)
 
@@ -73,6 +75,8 @@ DEPENDENCIES
   jekyll (~> 4.2.0)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
+  stringex (~> 2.8)
+  thor (~> 1.1)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
