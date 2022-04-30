@@ -5,7 +5,7 @@ permalink: /about/
 ---
 Hi my name is Aziz Amerul Faozi,
 
-## Education
+q## Education
 * Bandung Institute of Technology (2012-2018) GPA 2.93
 
 ## Projects
