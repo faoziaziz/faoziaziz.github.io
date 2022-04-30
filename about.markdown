@@ -18,4 +18,7 @@ I Like Xilinx's product because Expensive, thats help me to spend my money.
 |----------|--------------------|------|
 
 ## Projects
-* Hardware, make some hardware with DDR3 routing.
+|------|-----------|---------|
+| Name |Deksription|Reference|
+|------|-----------|---------|
+|SoM_HW|Create SOM using Zynq-7000 by kicad|link|
