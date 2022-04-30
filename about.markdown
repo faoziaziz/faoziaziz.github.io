@@ -31,5 +31,6 @@ I Like Xilinx's product because Expensive, thats help me to spend my money.
 | Name |Description|Reference|
 |------|-----------|---------|
 |SoM_HW|Create SOM using Zynq-7000 by kicad|link|
+|Radar Barokah|Create Hardware radar|[link](https://faoziaziz.github.io/radar_hw/)|
 |------|-----------------|----------------------|
 
