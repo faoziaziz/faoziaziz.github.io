@@ -4,6 +4,7 @@ title: CV
 permalink: /about/
 ---
 
+![Aziz Amerul Faozi](https://raw.githubusercontent.com/faoziaziz/faoziaziz.github.io/main/images/profpic.jpeg)
 Hi my name is Aziz Amerul Faozi, I have hobby to collect FPGA board from Xilinx.
 I Like Xilinx's product because Expensive, thats help me to spend my money.
 
