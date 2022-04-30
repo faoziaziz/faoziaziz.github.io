@@ -17,6 +17,14 @@ I Like Xilinx's product because Expensive, thats help me to spend my money.
 | Bandung Institute of Technology | Telecommunication Engineering GPA 2.93|2012/2018|
 |----------|--------------------|------|
 
+## Workplace
+
+|-----|---|---|
+|Place|Jobdesk|date|
+|----|-----|----|
+|Prasimax|System Engineer|Feb 2019 - now|
+|--------|---------------|-----------|
+
 ## Projects
 
 |------|-----------|---------|
@@ -24,3 +32,4 @@ I Like Xilinx's product because Expensive, thats help me to spend my money.
 |------|-----------|---------|
 |SoM_HW|Create SOM using Zynq-7000 by kicad|link|
 |------|-----------------|----------------------|
+
