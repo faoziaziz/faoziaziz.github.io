@@ -25,6 +25,32 @@ melanjutkan pembuatan OS_DNN ini.
 ```bash
 petalinux-config --get-hw-description /home/faoziaziz/soc/uas_nn_v2/uasganteng.xsa
 ```
+lalu muncul pada zynq configuration seperti pada 
+
+![gambar](/image/zynq_conf.png)
+
+Pilih berikut pastikan sd card telah terpilih ps7_sd_0 data hal tersebut karena
+saya setting boot linuxnya ada pada sdcard pada port sd0
+```bash
+Subsystem AUTO Hardware Settings  ---> SD/SDIO Settings  ---> Primary SD/SDIO (ps7_sd_0)
+```
+kemudian exit peta config nanti pilih 
+```bash
+Subsystem AUTO Hardware Settings  ---> Advanced bootable images storage Settings  ---> 
+dtb image settings  ---> image storage media (primary sd)  ---> primary sd
+```
+kemudian image packaging 
+```bash
+→ Image Packaging Configuration ---> Root filesystem type (EXT4 (SD/eMMC/SATA/USB))  
+---> EXT4 (SD/eMMC/SATA/USB)
+```
+kemudian konfigurasi kernel
+```bash
+petalinux-config -c kernel
+```
+
+
+
 
 
 
