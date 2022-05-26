@@ -48,7 +48,14 @@ kemudian konfigurasi kernel
 ```bash
 petalinux-config -c kernel
 ```
+kemudian package 
+```bash
+petalinux-package --boot --fsbl /intan/soc/peta_uas/zynq_fsbl/fsbl.elf --fpga /home/faoziaziz/soc/uas_nn_v2/uas_nn_v2.runs/impl_1/design_1_wrapper.bit --u-boot
+```
+kemudian program flash fsbl dan boot.bin yang digenerate. 
 
+Siapkan SDcard, format menjadi 2 bagian yang pertama FAT32 dengan ukuran 60MB yang kedua ext4 
+dengan sisa space yang ada.
 
 
 
