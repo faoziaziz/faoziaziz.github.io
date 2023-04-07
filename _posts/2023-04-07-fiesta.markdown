@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Fiesta"
+tags:
+ -
+---
+
+Membuat postingan dengan jekyll thor ternyata sangat menyenangkan anda bisa menggunakan perintah berikut agar bisa membuat postingan baru tanpa harus melakukan eiditing file markdown atau mungkin copast. commandnya adalah seperti berikut 
+```bash
+thor jekyll:new Fiesta --editor=vim
+```
+saya menggunkaan Fiesta untuk nama postingan seperti postingan ini dan menggunakan editor vim untuk menggunakannya sebagai posting editor setela itu tinggal post saja di github dengan post github.
