@@ -3,6 +3,7 @@ layout: post
 title: "Menonton Film"
 tags:
  - Diary
+background: '/img/bg-about.jpg'
 ---
 Aku masih berusaha untuk melakukan penetrasi pasar di Purbalingga. Ada beragam ide yang bisa diimplementasikan disini. Aku mungkin beruntung karena kebanyakan proyek di purbalingga tidak terlalu bernilai tinggi, ini akan menyeleksi para bounty hunter untuk tidak datang kesini. 
 
