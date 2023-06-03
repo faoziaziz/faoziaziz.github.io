@@ -23,3 +23,5 @@ dengan menggunakan bantuan chat gpt kita bisa membuat tipe 2021v1 kompactible de
 ```bash
 petalinux-create -t project -s ./../../xilinxTest/purbalingga/board_design_wrapper.xsa --name v21ujicoba
 ```
+
+saya mengganti nilai DTG pada config command dengan nilai [zc702](https://support.xilinx.com/s/question/0D52E00006iHj5KSAS/is-is-possible-to-update-configurations-after-creating-project-with-bsp-?language=en_US)
