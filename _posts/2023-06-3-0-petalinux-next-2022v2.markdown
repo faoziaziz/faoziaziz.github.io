@@ -24,4 +24,27 @@ dengan menggunakan bantuan chat gpt kita bisa membuat tipe 2021v1 kompactible de
 petalinux-create -t project -s ./../../xilinxTest/purbalingga/board_design_wrapper.xsa --name v21ujicoba
 ```
 
+petalinux-boot --jtag --u-boot --hw_server-url localhost:3121
+
+Format SDCARD
+
+```bash
+sudo mkfs.vfat -n 'BOOT' -I /dev/sda1
+sudo mkfs.ext4 -n 'ROOTFS' -I /dev/sda2
+```
+
+```bash
+petalinux-create -t project -s 
+```
+
+## Formating sdcard
+perhatikan bahwa sdcard saya termounting di ```/dev/sda```
+
+```bash
+sudo fdisk /dev/sda
+```
+
+
+[gpio](https://www.linkedin.com/pulse/gpio-petalinux-part-3-go-uio-roy-messinger/)
+
 saya mengganti nilai DTG pada config command dengan nilai [zc702](https://support.xilinx.com/s/question/0D52E00006iHj5KSAS/is-is-possible-to-update-configurations-after-creating-project-with-bsp-?language=en_US)
