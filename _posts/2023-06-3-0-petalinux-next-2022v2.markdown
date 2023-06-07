@@ -43,8 +43,14 @@ perhatikan bahwa sdcard saya termounting di ```/dev/sda```
 ```bash
 sudo fdisk /dev/sda
 ```
+create app
+```bash
+petalinux-create -t apps --template c --name myapp1 --enable
+```
 
-
+```bash
+petalinux-package --boot --fsbl zynq_fsbl.elf --u-boot --fpga system.bit
+```
 [gpio](https://www.linkedin.com/pulse/gpio-petalinux-part-3-go-uio-roy-messinger/)
 
 saya mengganti nilai DTG pada config command dengan nilai [zc702](https://support.xilinx.com/s/question/0D52E00006iHj5KSAS/is-is-possible-to-update-configurations-after-creating-project-with-bsp-?language=en_US)
