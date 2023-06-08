@@ -22,7 +22,18 @@ padahal sebelemunya bisa, lets we start this journey
 
 # boot package evaluation 
 saya menggunakan command berikut untuk tidak mempackage fsbl dan bitstream unutk melakukan evaluasi error terjadi karena effect overlap antara fsbl dan bitstream.
-```c
+```bash
 petalinux-package --boot --u-boot --force
 ```
 hasilnya sungguh mengejutkan memang tidak error di uboot, maksudnya error di das u boot tidak membelikan log error namun tidak bisa masuk ke dalam boot kernel.
+
+## Menambahkan Fsbl dalam boot bin
+harapannya setelah menambahkan command ini saya bisa melakukan bootloading ke rootfs
+```shell
+petalinux-package --boot --fsbl zynq_fsbl.elf --u-boot --force 
+```
+dan melakukan communikasi uart
+```bash
+picocom /dev/ttyUSB0 --baud 115200 --omap crcrlf
+```
+ternyata bootloading tidak mengalami perubahan
