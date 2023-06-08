@@ -36,4 +36,6 @@ dan melakukan communikasi uart
 ```bash
 picocom /dev/ttyUSB0 --baud 115200 --omap crcrlf
 ```
-ternyata bootloading tidak mengalami perubahan
+ternyata bootloading tidak mengalami perubahan. 
+
+Mungkin ini masalah configurasi hardware setting pada vivado, mungkin juga masalah file kernel nya, saya masih menguji beberapa command siapa tahu memang benar ada di kernelnya karena saya pernah berhasil melakukan booting hingga rootfs. 
