@@ -20,7 +20,7 @@ initcall sequence 3ffd22d4 failed at call 040028bc (err=-19)
 ```
 padahal sebelemunya bisa, lets we start this journey
 
-# boot package evaluation 
+## boot package evaluation 
 saya menggunakan command berikut untuk tidak mempackage fsbl dan bitstream unutk melakukan evaluasi error terjadi karena effect overlap antara fsbl dan bitstream.
 ```bash
 petalinux-package --boot --u-boot --force
@@ -39,3 +39,9 @@ picocom /dev/ttyUSB0 --baud 115200 --omap crcrlf
 ternyata bootloading tidak mengalami perubahan. 
 
 Mungkin ini masalah configurasi hardware setting pada vivado, mungkin juga masalah file kernel nya, saya masih menguji beberapa command siapa tahu memang benar ada di kernelnya karena saya pernah berhasil melakukan booting hingga rootfs. 
+
+## Oke kita kembali ke state awal
+Package boot dengan semuanya
+```bash
+petalinux-package --boot --fsbl zynq_fsbl.elf --u-boot --fpga system.bit --force 
+```
