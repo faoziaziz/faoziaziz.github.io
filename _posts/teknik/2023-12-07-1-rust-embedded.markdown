@@ -21,7 +21,7 @@ cargo generate --git https://github.com/rust-embedded/cortex-m-quickstart
 
 dalam code src nanti kalian akan menemukan code seperti berikut
 
-```rust main.rs
+```rust 
 #![no_std]
 #![no_main]
 
