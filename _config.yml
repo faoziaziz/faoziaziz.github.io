@@ -1,26 +1,26 @@
-title:              Aziz Faozi
-email:              diamonrose144@gmail.com
-description:        Tet teret tet
-author:             Aziz Faozi
-baseurl:            "/"
-url:                "https://faoziaziz.github.io"
-theme: octopress
+title: Jekyll Serial Programmer
+markdown: kramdown
 
-# Social Profiles
-twitter_username:   AzizFaozi4
-github_username:    faoziaziz
-facebook_username:  phonospher
-instagram_username:  faozi.aziz
-linkedin_username: aziz-faozi-169102244
+# for atom feed
+author:
+  name: Sharad Raj Singh Maurya
+  email: dev_sharad@outlook.com
 
-# Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
-
-# Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
 plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "post"
+      permalink: /posts/:title/
+exclude: ["sitemap.xml", "feed.xml", "LICENSE", "README.md"]
