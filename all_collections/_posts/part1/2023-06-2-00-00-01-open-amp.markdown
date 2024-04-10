@@ -1,0 +1,8 @@
+---
+layout: post
+title: "OpenAMP"
+tags:
+ - Diary
+background: '/img/bg-about.jpg'
+---
+Aku pikir awalnya openamp dibuat untuk bisa melakukan processing dimanapun berada ternyata tidak seperti itu. Kita perlu menanamkan opem amp pada processor asymetrics multi processor.

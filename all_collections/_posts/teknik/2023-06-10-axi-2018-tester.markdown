@@ -1,0 +1,13 @@
+---
+layout: post
+title: "AXI 2018 Tester"
+tags:
+ - Diary
+background: '/img/bg-about.jpg'
+---
+# AXI 2018 tester
+For comming new any axi 2018 tester so i must to make some build for new technique in fpga and arm development. But in some cast i have to failed build hls IP core so in the next time maybe i should build it with verilog AXI wrapper.
+
+```bash
+
+```
