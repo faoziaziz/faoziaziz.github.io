@@ -9,3 +9,9 @@ Saya membeli lagi anggur jenis baru yaitu tamaki dan harold. Setelah saya check 
 
 Saya menerima proyek baru untuk membuat spliter dari DB9 dan DB25. Saya masih pending untuk proyek monitorng health dari serenity.
 
+
+** Design Vine Yard
+*** Design Pupuk
+Menyediakan pupuk  
+*** Design AS
+
